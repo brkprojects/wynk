@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wynk Music</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .container {
+            background-color: black;
+            padding: 20px;
+        }
+
+        .logo {
+            border-radius: 50%;
+            width: 50px;
+        }
+
+        .logohead {
+            color: white;
+            font-family: Sans-serif;
+            font-weight: 300;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(34, 32, 32);
+        }
+
+        .menu {
+            height: 30px;
+            width: 30px;
+        }
+
+        .logocontainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search {
+            width: 260px;
+            height: 30px;
+            display: block;
+            padding: 9px;
+            background: transparent;
+            border: none;
+            color: white;
+        }
+
+        .searchicon {
+            height: 20px;
+            padding-right: 3px;
+        }
+
+        .searchbar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            height: 0px;
+        }
+        .headline{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            height: 0px;
+            gap: 50px;
+        }
+
+        .sub {
+            background: transparent;
+            height: 25px;
+        }
+
+        .p {
+            padding-left: 10px;
+        }
+
+        .rel {
+            font-family: Sans-serif;
+            font-size: 27px;
+        }
+
+        .new {
+            font-family: Sans-serif;
+            font-size: 17px;
+        }
+
+        .new1 {
+            font-family: Sans-serif;
+            font-size: 17px;
+            text-align: center;
+        }
+
+        .image {
+            border-radius: 20px;
+            height: 200px;
+        }
+
+        .image1 {
+            border-radius: 50%;
+            height: 200px;
+        }
+
+        .songcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .cont1 {
+            padding: 30px;
+            padding-top: 80px;
+        }
+
+        .a {
+            border: none;
+            border-left: 2px rgb(82, 76, 76) solid;
+        }
+
+        .b {
+            border: 2px rgb(82, 76, 76) solid;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logohead">
+            <div class="logocontainer">
+                <label for="a"> <img class="logo"
+                        src="https://play-lh.googleusercontent.com/JzeVs_5UBmqGCz-_jNYgA1IAPgSLIoBbc7C1vQ98jqZFGGDI6aqWSQ8E1jAfUL8GLQlB=w240-h480-rw"
+                        alt="">
+                </label>
+                <h1 class="logohead" id="a">Wynk Music</h1>
+            </div>
+            <div class="logocontainer">
+                <div class="searchbar b">
+                    <img class="searchicon" src="https://www.clker.com/cliparts/9/T/2/h/X/7/search-icon-md.png" alt="">
+                    <input class="search" type="search" placeholder="Search Songs">
+                </div>
+
+                <div class="searchbar">
+                    <img class="sub"
+                        src="https://cdn-icons-png.flaticon.com/512/6367/6367364.png"
+                        alt="">
+                    <div class="p">Manage Subscription</div>
+                </div>
+                <div class="searchbar a">
+                    <img class="sub" src="https://icon-library.com/images/guest-account-icon/guest-account-icon-11.jpg"
+                        alt="">
+                    <div class="p">Login</div>
+                </div>
+                <div class="searchbar">
+                    <img class="menu"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYHp9G9qyC4v48TK0mk9mxaFgXxzLC-NIqxpbOpluKCeOtjdEJMgqGAw_Vz2LQg647O4&usqp=CAU"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div class="headline">                    
+            <div class="r">All</div>
+            <div class="r">Trending Now</div>
+            <div class="r">Old Songs</div>
+            <div class="r">New songs</div>
+            <div class="r">Moods&Genre</div>
+            <div class="r">Top Albums</div>
+            <div class="r">Top Artists</div>
+            <div class="r">Top Playlists</div>
+            <div class="r">Podcast</div>
+        </div>
+        <div class="cont1">
+            <h1 class="rel">New Releases</h1>
+            <div class="songcontainer">
+                <div>
+                    <img class="image"
+                        src="https://is2-ssl.mzstatic.com/image/thumb/Music112/v4/bd/50/2a/bd502abd-0ef7-3906-bce8-ee29516d5206/196589460875.jpg/1200x1200bf-60.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://a10.gaanacdn.com/images/playlists/29/15924729/crop_480x480_15924729_1513756815.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://i.pinimg.com/474x/5c/d1/36/5cd13695039615dffa00f4b3fe693bc0.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://c.saavncdn.com/161/DJ-Duvvada-Jagannadham-Telugu-2017-500x500.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://1.bp.blogspot.com/--csxaZuY0cM/XTCEXOcVp7I/AAAAAAAApMY/Q0LUa_PNl8g9p5S3hFbD-IZ4bYeF7-4_gCLcBGAs/s1600/Rangasthalam%2BSongs%2B2018%2B-%2BTelugu.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://i.pinimg.com/474x/5c/d1/36/5cd13695039615dffa00f4b3fe693bc0.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+            </div>
+
+            <h1 class="rel">Top Chats</h1>
+            <div class="songcontainer">
+                <div>
+                    <img class="image" src="https://i.pinimg.com/474x/17/2b/dd/172bdd819c340332e403658dce2e77db.jpg" alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image" src="https://a10.gaanacdn.com/images/albums/85/2972585/crop_480x480_1610191921_2972585.jpg" alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image" src="https://a10.gaanacdn.com/images/albums/85/2972585/crop_480x480_1610191921_2972585.jpg" alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image" src="https://i.pinimg.com/474x/17/2b/dd/172bdd819c340332e403658dce2e77db.jpg" alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image" src="https://a10.gaanacdn.com/images/albums/85/2972585/crop_480x480_1610191921_2972585.jpg" alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image" src="https://a10.gaanacdn.com/images/albums/85/2972585/crop_480x480_1610191921_2972585.jpg" alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+            </div>
+
+            <h1 class="rel">New Releases</h1>
+            <div class="songcontainer">
+                <div>
+                    <img class="image"
+                        src="https://is2-ssl.mzstatic.com/image/thumb/Music112/v4/bd/50/2a/bd502abd-0ef7-3906-bce8-ee29516d5206/196589460875.jpg/1200x1200bf-60.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://a10.gaanacdn.com/images/playlists/29/15924729/crop_480x480_15924729_1513756815.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://i.pinimg.com/474x/5c/d1/36/5cd13695039615dffa00f4b3fe693bc0.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://c.saavncdn.com/161/DJ-Duvvada-Jagannadham-Telugu-2017-500x500.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://1.bp.blogspot.com/--csxaZuY0cM/XTCEXOcVp7I/AAAAAAAApMY/Q0LUa_PNl8g9p5S3hFbD-IZ4bYeF7-4_gCLcBGAs/s1600/Rangasthalam%2BSongs%2B2018%2B-%2BTelugu.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://i.pinimg.com/474x/5c/d1/36/5cd13695039615dffa00f4b3fe693bc0.jpg"
+                        alt="">
+                    <h1 class="new">New Songs Mix</h1>
+                </div>
+            </div>
+
+            <h1 class="rel">Top Indie Artists</h1>
+            <div class="songcontainer">
+                <div>
+                    <img class="image1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX-Ue5fRuYKkPvt6YiyZovQqF4Dpur66qo-sgbQfD6bpPbbeKZ3o3hpTmRLsEzw_xi09Q&usqp=CAU"
+                        alt="">
+                    <h1 class="new1">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image1" src="https://i.scdn.co/image/ab67706f0000000238c0c4a44e63c87bd9f6bff8" alt="">
+                    <h1 class="new1">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image1"
+                        src="https://c.saavncdn.com/editorial/IndiependentIndiaFolkTelugu_20221226074123.jpg" alt="">
+                    <h1 class="new1">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image1" src="https://i1.sndcdn.com/artworks-AB2o7ozbmi2dL23y-AKli2Q-t500x500.jpg"
+                        alt="">
+                    <h1 class="new1">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image1" src="https://i1.sndcdn.com/artworks-AB2o7ozbmi2dL23y-AKli2Q-t500x500.jpg"
+                        alt="">
+                    <h1 class="new1">New Songs Mix</h1>
+                </div>
+                <div>
+                    <img class="image1" src="https://i1.sndcdn.com/artworks-AB2o7ozbmi2dL23y-AKli2Q-t500x500.jpg"
+                        alt="">
+                    <h1 class="new1">New Songs Mix</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
